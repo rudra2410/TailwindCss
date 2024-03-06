@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="mx-20 my-20 justify-between">
+    <div class="flex gap-5">
+        <!-- Rounded corners -->
+        <div class="rounded size-40 bg-purple-500"></div>
+        <div class="rounded-md size-40 bg-purple-500"></div>
+        <div class="rounded-lg size-40 bg-purple-500"></div>
+        <div class="rounded-full size-40 bg-purple-500"></div>
+    </div>
+
+    <!-- Pill buttons -->
+    <div class="flex mx-20 my-20 gap-5">
+        <button class="w-[150px] h-[50px] bg-[#93C5FD] rounded-full">
+            Save Changes
+        </button>
+        <button class="w-[150px] h-[50px] bg-[#93C5FD] rounded-none">
+            Save Changes
+        </button>
+    </div>
+
+    <!-- Rounding sides separately -->
+    <div class="flex gap-5 mx-20 my-20">
+        <div class="size-20 bg-[#3B82F6] rounded-t-lg"></div>
+        <div class="size-20 bg-[#3B82F6] rounded-r-lg"></div>
+        <div class="size-20 bg-[#3B82F6] rounded-b-lg"></div>
+        <div class="size-20 bg-[#3B82F6] rounded-l-lg"></div>
+    </div>
+
+    <!-- Rounding corners separately -->
+    <div class="flex gap-5 mx-20 my-20">
+        <div class="size-20 bg-[#3B82F6] rounded-tl-lg"></div>
+        <div class="size-20 bg-[#3B82F6] rounded-tr-lg"></div>
+        <div class="size-20 bg-[#3B82F6] rounded-bl-lg"></div>
+        <div class="size-20 bg-[#3B82F6] rounded-br-lg"></div>
+    </div>
+
+    <!-- Using logical properties -->
+    <div dir="ltr">
+        <div class="rounded-s-lg size-20 bg-cyan-400"></div>
+        <div>
+
+            <div dir="rtl">
+                <div class="rounded-s-lg size-20 bg-cyan-400"></div>
+                <div>
+
+                    <!-- Hover -->
+                    <div class="flex mx-20 my-20 gap-5">
+                        <button class="w-[150px] h-[50px] bg-[#93C5FD] rounded-full hover:rounded-[10px]">
+                            Save Changes
+                        </button>
+                    </div>
+</body>
+
+</html>
