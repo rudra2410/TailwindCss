@@ -7,7 +7,10 @@ module.exports = {
         sans: ["Inter", "sans-serif"],
         serif: ["Merriweather", "serif"],
         rudra: ["Menlo", "monospace"],
-      }
+      },
+      width :{
+        '10/11' :10/11,
+      },
       // columns: {
       //   '4xs': '15rem',
       // },
